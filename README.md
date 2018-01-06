@@ -6,6 +6,9 @@
 ## 사용방법
 -  프로젝트 빌드 후 google api key와 공공데이터 포털의 응급실 실시간 정보 API key을 발급받아 입력 후 실행
 
+## API FLOW
+![image](http://cfile30.uf.tistory.com/image/998FFE3F5A50598414EDDC)
+
 ## 실행결과
 
 ![image](http://cfile4.uf.tistory.com/image/992CD4495A50530929D7C2)
