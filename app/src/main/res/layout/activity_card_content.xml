@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project.jsh.androidprj.CardContent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/cardlist_style_positive"
+        android:textSize="18dp"
+        android:text="병원명\n" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:drawableRight="@drawable/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/cardlist_style_positive"
+        android:textSize="18dp"
+        android:text="응급실전화\n" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/cardlist_style_positive"
+        android:textSize="18dp"
+        android:text="주소\n" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/cardlist_style_positive"
+        android:textSize="18dp"
+        android:text="거리\n" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/cardlist_style_negative"
+        android:textSize="18dp"
+        android:text="구급차 가용여부\n" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ContentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
